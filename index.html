@@ -31,7 +31,7 @@
           <img src="images/logo_Venturay-2.png" alt="Venturay Logo">
         </a>
       </div>
-      
+
       <div class="col col-md-8">
         <nav class="navbar pull-right main-nav-wrapper">
           <ul class="nav navbar-nav main-nav">
@@ -39,7 +39,16 @@
               <a href="javascript:void(0)" id="ven-home">Home</a>
             </li>
             <li>
+              <a href="about.html" id="ven-about">About Us</a>
+            </li>
+            <li>
               <a href="services.html" id="ven-about">Services</a>
+            </li>
+            <li>
+              <a href="partners.html" id="ven-partners">Partners</a>
+            </li>
+            <li>
+              <a href="careers.html" id="ven-careers">Careers</a>
             </li>
             <li>
               <a href="contact.html" id="ven-contact">Contact</a>
@@ -296,19 +305,19 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
   <script>
 
     $(document).ready(function () {
 
       $('#sections').fullpage({
-        menu:'#menu-silde',
-        anchors:['1','2', '3', '4', '5', '6'],
-        css3:true,
-        easing:'easeInOutCubic',
-        easingcss3:'ease',
-
+        menu: '#menu-silde',
+        anchors: ['1', '2', '3', '4', '5', '6'],
+        css3: true,
+        easing: 'easeInOutCubic',
+        easingcss3: 'ease',
+        responsiveWidth: '767'
       });
     });
 
